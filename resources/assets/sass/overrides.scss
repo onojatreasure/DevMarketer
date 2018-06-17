@@ -42,3 +42,14 @@
 .navbar-item img{
     max-height: 3rem;
 }
+
+/*==============================
+   ===TEXT OVERIDES=============
+   ============================= */
+.is-muted{
+    color: $grey-light !important;
+}
+
+a.is-muted:hover{
+    color: $grey !important;
+}

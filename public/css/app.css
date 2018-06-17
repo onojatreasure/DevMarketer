@@ -3467,7 +3467,7 @@ th {
 }
 
 html {
-  background-color: white;
+  background-color: whitesmoke;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -17582,6 +17582,18 @@ label.panel-block:hover {
 
 .navbar-item img {
   max-height: 3rem;
+}
+
+/*==============================
+   ===TEXT OVERIDES=============
+   ============================= */
+
+.is-muted {
+  color: #b5b5b5 !important;
+}
+
+a.is-muted:hover {
+  color: #7a7a7a !important;
 }
 
 .m-t-5 {
