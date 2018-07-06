@@ -27,7 +27,7 @@
                         <input type="text" class="input {{$errors->has('email') ? 'is-danger' : ''}}" id="email" name="email" placeholder="name@example.com" value="{{old('email')}}" required>
                     </p>
                     @if ($errors->has('email'))
-                        <p class="help is-danger">{{$errors->first('email')}}</p>
+                        <p class="help is-success">{{$errors->first('email')}}</p>
                     @endif
                 </div>
 

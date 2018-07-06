@@ -14,12 +14,18 @@
 //bulma vue modules
 @import "node_modules/buefy/src/scss/buefy";
 
+
+
 //Custom SCSS Pages
 @import "overrides";
 
 @import "helpers";
 
+@import "manage";
+
 @import "styles";
+
+
 
 
 
