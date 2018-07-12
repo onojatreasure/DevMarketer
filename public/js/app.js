@@ -978,6 +978,8 @@ module.exports = __webpack_require__(38);
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_buefy__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_buefy___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_buefy__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_vue__);
 
 __webpack_require__(11);
 
@@ -985,13 +987,16 @@ window.Vue = __webpack_require__(34);
 
 
 
-Vue.use(__WEBPACK_IMPORTED_MODULE_0_buefy___default.a);
+
+
+__WEBPACK_IMPORTED_MODULE_1_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_0_buefy___default.a);
 
 //Vue.component('example-component', require('./components/ExampleComponent.vue'));
-var app = new Vue({
-  el: "#app",
-  data: {}
-});
+//var app = new Vue({
+//  el:"#app",
+//  data: {}
+//})
+
 
 document.addEventListener('DOMContentLoaded', function () {
 

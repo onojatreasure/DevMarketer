@@ -3472,8 +3472,6 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   min-width: 300px;
-  overflow-x: hidden;
-  overflow-y: scroll;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
@@ -9588,15 +9586,15 @@ a.dropdown-item.is-active,
 }
 
 .menu-list a {
-  border-radius: 2px;
+  border-radius: 5px;
   color: #4a4a4a;
   display: block;
   padding: 0.5em 0.75em;
 }
 
 .menu-list a:hover {
-  background-color: whitesmoke;
-  color: #363636;
+  background-color: maroon;
+  color: white;
 }
 
 .menu-list a.is-active {
@@ -9611,7 +9609,7 @@ a.dropdown-item.is-active,
 }
 
 .menu-label {
-  color: #7a7a7a;
+  color: black;
   font-size: 0.75em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -17596,6 +17594,14 @@ a.is-muted:hover {
   color: #7a7a7a !important;
 }
 
+.side-menu {
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+  overflow-y: scroll;
+  background: white;
+}
+
 .m-t-5 {
   margin-top: 5px !important;
 }
@@ -17978,5 +17984,24 @@ a.is-muted:hover {
 
 .p-r-100 {
   padding-right: 100px !important;
+}
+
+.side-menu {
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+  overflow-y: hidden;
+  background-color: white;
+}
+
+.management-area {
+  position: absolute;
+  top: 5rem;
+  left: 200px;
+  right: 0;
+}
+
+.flex-container {
+  margin: 10px 25px;
 }
 

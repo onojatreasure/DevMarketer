@@ -53,3 +53,13 @@
 a.is-muted:hover{
     color: $grey !important;
 }
+
+
+.side-menu {
+    position: fixed;
+    height: 100vh;
+    width: 200px;
+    overflow-y: scroll;
+    background: white;
+   
+}
